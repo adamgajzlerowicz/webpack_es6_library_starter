@@ -1,7 +1,5 @@
 // @flow
 
-const foo = (data)=>data;
+const foo = (data: string) => data;
 
-export {
-    foo,
-};
+export default foo;

@@ -1,0 +1,24 @@
+{
+  "name": "webpack_es6_library_starter",
+  "version": "1.0.0",
+  "main": "index.js",
+  "repository": "git@github.com:adamgajzlerowicz/webpack_es6_library_starter.git",
+  "author": "Adam Gajzlerowicz <nelf86@gmail.com>",
+  "license": "MIT",
+  "scripts": {
+    "lint": "eslint src --ext .js --cache --fix",
+    "start": "webpack-dev-server --config ./config/webpack.config.js"
+  },
+  "devDependencies": {
+    "babel-preset-env": "^1.7.0",
+    "eslint-plugin-jsx-a11y": "^6.1.1",
+    "eslint-plugin-react": "^7.10.0",
+    "webpack-cli": "^3.1.0"
+  },
+  "dependencies": {
+    "eslint": "^5.2.0",
+    "eslint-config-airbnb": "^17.0.0",
+    "webpack": "^4.16.3",
+    "webpack-dev-server": "^3.1.5"
+  }
+}

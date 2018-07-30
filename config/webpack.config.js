@@ -16,14 +16,6 @@ module.exports = {
   },
   module: {
     rules: [
-      // {
-      //   test: /\.js$/,
-      //   exclude: /node_modules/,
-      //   loader: 'eslint-loader',
-      //   options: {
-      //     fix: true,
-      //   },
-      // },
       {
         test: /\.js$/,
         exclude: /node_modules/,
@@ -32,6 +24,14 @@ module.exports = {
           options: {
             presets: ['@babel/preset-env', '@babel/preset-react'],
           },
+        },
+      },
+      {
+        test: /\.js$/,
+        exclude: /node_modules/,
+        loader: 'eslint-loader',
+        options: {
+          fix: true,
         },
       },
     ],
@@ -44,6 +44,6 @@ module.exports = {
   },
   devtool: 'cheap-module-source-map',
   plugins: [
-      new webpack.HotModuleReplacementPlugin(),
+    new webpack.HotModuleReplacementPlugin(),
   ],
 };

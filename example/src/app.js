@@ -1,6 +1,8 @@
-import React from 'react';
+// @flow
 
-const App = () => (
+import * as React from 'react';
+
+const App = (): React.Element<string> => (
   <div>
     hello
   </div>

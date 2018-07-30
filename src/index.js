@@ -1,3 +1,7 @@
 // @flow
 
-console.log('lkjsd');
+const foo = (data)=>data;
+
+export {
+    foo,
+};

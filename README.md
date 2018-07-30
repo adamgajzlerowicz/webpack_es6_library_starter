@@ -27,7 +27,7 @@ yarn start
 
 ### Available commands
 
-* yarn lint     # eslint with --fix
+* yarn lint     # eslint with --fix <!--- comment here -->
 * yarn test     # run jest
 * yarn start    # run playgrond
 * yarn build    # transpile src to lib and copy flow src

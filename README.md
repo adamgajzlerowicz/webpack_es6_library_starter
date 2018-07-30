@@ -1,4 +1,4 @@
-This is a javascript library starter pack
+# javascript library starter pack
 
 ## Why another starter
 
@@ -10,7 +10,7 @@ For any new appliation it is really easy to start with create-react-app. Unfortu
 All of the libs are just devDependencies that are used to make the development easier.
 
 * webpack dev server for playground
-* bable for building
+* babel for building
 * hot module replacement
 * eslint
 * flow

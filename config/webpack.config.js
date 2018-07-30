@@ -1,4 +1,5 @@
 const path = require('path');
+const webpack = require('webpack');
 
 const APP = path.resolve(__dirname, '../example/src');
 const BUILD = path.resolve(__dirname, '../example/lib');
@@ -42,5 +43,7 @@ module.exports = {
     port: 8080,
   },
   devtool: 'cheap-module-source-map',
-  plugins: [],
+  plugins: [
+      new webpack.HotModuleReplacementPlugin(),
+  ],
 };

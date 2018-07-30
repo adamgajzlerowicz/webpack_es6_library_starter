@@ -35,6 +35,6 @@ yarn start
 
 ## Structure
 
-* ./src - empty library folder with example file
-* ./example - playground for testing
-* ./lib - output folder for `build`
+* `./src` - empty library folder with example file
+* `./example` - playground for testing
+* `./lib` - output folder for `build`

@@ -1,5 +1,9 @@
 import React from 'react';
 
-const App = ()=> <div>hello</div>;
+const App = () => (
+  <div>
+hello
+  </div>
+);
 
-exports.App = App;
+export default App;

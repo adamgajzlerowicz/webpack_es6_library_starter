@@ -1,4 +1,4 @@
-# javascript library starter pack
+# javascript starter pack for creating libraries
 
 ## Why another starter
 
